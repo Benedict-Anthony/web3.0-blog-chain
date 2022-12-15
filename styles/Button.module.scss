@@ -1,0 +1,15 @@
+.button{
+    display: inline-block;
+    color: var(--OffWhite);
+    padding: 10px 20px;
+    border: 0;
+    background-color: var(--SoftRed);
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: var(--VeryDarkBlue);
+    }
+}
