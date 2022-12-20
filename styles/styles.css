@@ -1,0 +1,26 @@
+.swiper {
+    overflow: visible;
+    margin-top: 40px;
+}
+
+/* .swiper article:nth-of-type(1) {
+    background-color: blue;
+} */
+
+swiper-pagination-bullet {
+    background-color: red;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: hsl(34, 97%, 64%);
+}
+
+.crypto article:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+@media(max-width:767px) {
+    .crypto article:nth-child(2) {
+        flex-direction: column;
+    }
+}
