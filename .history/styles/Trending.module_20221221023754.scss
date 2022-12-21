@@ -1,0 +1,40 @@
+.article{
+    border: 1px solid var(--SoftOrange);
+    border-radius: 4px;
+
+    &:hover{
+        transform: scale(.99);
+    }
+    div{
+        width: 100%;
+        position: relative;
+        img{
+            width: 100px;
+        }
+        span{
+            font-size: 1.1rem;
+            color: var(--SoftRed);
+            position: absolute;
+            top: 30px;
+            left: 30px;
+       }
+    }
+
+    div{
+        padding: 10px 20px;
+        text-align: center;
+        p{
+            padding: 10px 0;
+            font-size: 1.2rem;
+            text-align:left;
+        }
+    }
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

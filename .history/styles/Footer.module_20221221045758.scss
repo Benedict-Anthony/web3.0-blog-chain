@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 5px;
+    color: var(--DarkGrayishBlue);
+    background-color: var(--VeryDarkBlue);
+    margin-top: 30px;
+    text-align: center;
+
+    h3{
+        // color:var(--Blue);
+        font-size: 2rem;
+    }
+    p{
+        color: var(--SoftOrange);
+        font-size: 1.1rem;
+    }
+
+    div{
+        // color: var(--SoftOrange);
+        font-size: 14px;
+    }
+}
