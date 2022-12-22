@@ -1,0 +1,30 @@
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.article{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+    h2{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--SoftOrange);
+    }
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        // margin: 0 auto;
+    }
+
+
+}

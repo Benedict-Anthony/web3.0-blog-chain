@@ -22,8 +22,9 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
         props: {
             news:data.value
-        },
-        revalidate:10
+            
+            
+        }
     }
 }
 type TrendingProps = {

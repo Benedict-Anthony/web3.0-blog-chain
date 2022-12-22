@@ -9,23 +9,23 @@ import { useState } from 'react';
 
 
 export const getStaticProps:GetStaticProps =  async ()=>  {
-    const apiKey = process.env.REACT_APP_RAPID_API_KEY || ""
-    const apiHost = process.env.REACT_APP_RAPID_API_HOST || ""
-    const url = 'https://coinranking1.p.rapidapi.com/coins'
-    const config = {
-        headers:{
-        'X-RapidAPI-Key':apiKey,
-        'X-RapidAPI-Host': apiHost
-        }
-    }
-    const response = await fetch(url, config)
-    const data = await (response).json()
+    // const apiKey = process.env.REACT_APP_RAPID_API_KEY || ""
+    // const apiHost = process.env.REACT_APP_RAPID_API_HOST || ""
+    // const url = 'https://coinranking1.p.rapidapi.com/coins'
+    // const config = {
+    //     headers:{
+    //     'X-RapidAPI-Key':apiKey,
+    //     'X-RapidAPI-Host': apiHost
+    //     }
+    // }
+    // const response = await fetch(url, config)
+    // const data = await (response).json()
 
 
     return {
         props: {
-            coinsList:data.data.coins
-            
+            // coinsList:data.data.coins
+            coins:[]
         },
         revalidate:10
 

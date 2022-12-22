@@ -1,0 +1,11 @@
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.article{
+    width: 100%;
+}

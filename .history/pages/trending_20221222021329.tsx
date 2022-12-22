@@ -5,25 +5,26 @@ import Trending from 'components/Trending'
 import { GetStaticProps } from 'next';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const apiKey = process.env.REACT_APP_RAPID_API_KEY || ""
-    const apiHost = process.env.REACT_APP_RAPID_NEWS_API_HOST || ""
-    // const params = {q: 'crytocurrency', freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'}
-    const url = `https://bing-news-search1.p.rapidapi.com/news/search?q=crypto&safeSearch=Off&textFormat=Raw&freshness=month&count=400`
-    const config = {
-        headers: {
-            'X-RapidAPI-Key': apiKey,
-            'X-RapidAPI-Host':apiHost,
-            // "Accept-Language": "EN"
-        }
-    }
-    const response = await fetch(url, config)
-    const data = await response.json()
+    // const apiKey = process.env.REACT_APP_RAPID_API_KEY || ""
+    // const apiHost = process.env.REACT_APP_RAPID_NEWS_API_HOST || ""
+    // // const params = {q: 'crytocurrency', freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'}
+    // const url = `https://bing-news-search1.p.rapidapi.com/news/search?q=crypto&safeSearch=Off&textFormat=Raw&freshness=month&count=400`
+    // const config = {
+    //     headers: {
+    //         'X-RapidAPI-Key': apiKey,
+    //         'X-RapidAPI-Host':apiHost,
+    //         // "Accept-Language": "EN"
+    //     }
+    // }
+    // const response = await fetch(url, config)
+    // const data = await response.json()
    
     return {
         props: {
-            news:data.value
-        },
-        revalidate:10
+            // news:data.value
+            news:[]
+            
+        }
     }
 }
 type TrendingProps = {

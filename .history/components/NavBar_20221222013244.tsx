@@ -28,7 +28,6 @@ const NavBar = () => {
                   <li><Link href={"/pricing"}>Pricing</Link></li>
                   <li><Link href={"/popular"}>Popular</Link></li>
                   <li><Link href={"/trending"}>Trending</Link></li>
-                  <li><Link href={"/market"}>Market</Link></li>
                   <li><Link href={"/nft"}>Nfts</Link></li>
                  
               </ul>

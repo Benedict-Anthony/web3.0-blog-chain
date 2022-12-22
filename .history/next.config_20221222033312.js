@@ -39,21 +39,6 @@ const nextConfig = {
         hostname: 'tse5.mm.bing.net',
 
       },
-      {
-        protocol: 'https',
-        hostname: 'tse3.explicit.bing.net',
-
-      },
-      {
-        protocol: 'https',
-        hostname: 'tse2.explicit.bing.net',
-
-      },
-      {
-        protocol: 'https',
-        hostname: 'tse1.explicit.bing.net',
-
-      },
     ]
   }
 }
