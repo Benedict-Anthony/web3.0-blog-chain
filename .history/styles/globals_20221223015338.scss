@@ -1,0 +1,60 @@
+:root{
+  --SoftOrange: hsl(35, 77%, 62%);
+  --SoftRed: hsl(5, 85%, 63%);
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  --OffWhite: hsl(36, 100%, 99%);
+  --GrayishBlue: hsl(233, 8%, 79%);
+  --DarkGrayishBlue: hsl(236, 13%, 42%);
+  --VeryDarkBlue: hsl(240, 100%, 5%);
+}
+
+html::-webkit-scrollbar{
+  background-color: var(--SoftOrange);
+  width: 10px;
+  padding:10px 30px;
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: var(--SoftRed);
+  border-radius: 100px;
+  cursor: grab;
+
+}
+
+
+@font-face{
+  font-family: "Inter";
+  src: url("/landing/assets/fonts/static/inter-Bold.ttf");
+  src: url("/landing/assets/fonts/static/inter-ExtraBold.ttf");
+  src: url("/landing/assets/fonts/static/inter-Regular.ttf");
+}
+
+*::after, *::before, *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all .3s ease;
+  line-height: 1.54em;
+}
+
+
+ul,li{
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Inter";
+}
+
+.swiper {
+    overflow: visible;
+}

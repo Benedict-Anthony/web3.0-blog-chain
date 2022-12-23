@@ -1,0 +1,44 @@
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    margin:20px 0;
+    width: 100%;
+
+    div{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+
+    div{
+        
+        h4{
+            font-size: 18px;
+            color: var(--GrayishBlue);
+            padding: 3px 0;
+            letter-spacing: .5em;
+        }
+
+        h2{
+            color: var(--DarkGrayishBlue);
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 16px;
+            color: var(--DarkGrayishBlue);
+
+        }
+    }
+}
